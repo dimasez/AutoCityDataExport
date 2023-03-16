@@ -1,0 +1,64 @@
+{
+  "jsonType": "guarantor",
+  "clientId": 432,
+  "guarantorData": {
+    "firstName": "Геннадий",
+    "lastName": "Кутузов",
+    "midName": "Игоревич",
+    "birthDay": "01.05.1967",
+    "sex": "М",
+    "nameHistory": [
+      {
+        "firstName": "Палладий",
+        "lastName": "Зюганов",
+        "midName": "Сидорович",
+        "endDate": "23.23.1997"
+      },
+      {
+        "firstName": "Акакий",
+        "lastName": "Гадя",
+        "midName": "Ивановович",
+        "endDate": "23.23.1986"
+      }
+    ]
+  },
+  "placeOfBirth": "Красноярск",
+  "INN": "213124234234",
+  "SNILS": "234-234-234-534",
+  "documentType": "Паспорт моряка",
+  "series": 123124,
+  "number": 1234,
+  "issueInstitute": "ОВД Советского района г. Новосибирска",
+  "dataOfIssue": "12-02-2019",
+  "expiryDate": "02-04-2024",
+  "instituteCode": "234-056",
+  "parentDocId": 12,
+  "citizenship": "Узбекистан",
+  "docInfo": "12-02-2019",
+  "email": "popov@mail.ru",
+  "firstAddress": [
+    {"city1": "Бердск"},
+    {"street1": "Морская улица"},
+    {"house1": "2"},
+    {"body1": "1"},
+    {"flat1": "56"},
+    {"city2": "Бердск"},
+    {"street2": "Морская улица"},
+    {"house2": "2"},
+    {"body2": "1"},
+    {"flat2": "56"},
+    {"registrationDate": "12-02-2019"}
+    ],
+  "secondAddress": [
+    {"city1": "Бердск"},
+    {"street1": "Морская улица"},
+    {"house1": "2"},
+    {"body1": "1"},
+    {"flat1": "56"},
+    {"city2": "Бердск"},
+    {"street2": "Морская улица"},
+    {"house2": "2"},
+    {"body2": "1"},
+    {"flat2": "56"}
+  ]
+}

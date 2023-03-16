@@ -1,0 +1,18 @@
+{
+  "jsonType": "auto",
+  "clientId": 432,
+  "provisionType": "Автомобиль",
+  "guarantorId": 465,
+  "VIN": "243234234234",
+  "brand": "Toyota",
+  "model": "Mark-2",
+  "cabin": "234ljl234234",
+  "year": "2008",
+  "PTSnumber": "23423lkj4234",
+  "PTSdate": "22-08-2018",
+  "PTSdate2": "22-08-2018",
+  "STSseries": "2938723u4oij",
+  "STSnumber": "312-042394",
+  "STSdate": "22-08-2018"
+}
+

@@ -1,0 +1,14 @@
+{
+  "jsonType": "document",
+  "clientId": 432,
+  "documentType": "Паспорт моряка",
+  "series": 123124,
+  "number": 1234,
+  "issueInstitute": "ОВД Советского района г. Новосибирска",
+  "dataOfIssue": "12-02-2019",
+  "expiryDate": "02-04-2024",
+  "instituteCode": "234-056",
+  "parentDocId": 12,
+  "citizenship": "Узбекистан",
+  "docInfo": "12-02-2019"
+}
