@@ -1,7 +1,7 @@
 {
   "jsonType": "contactData",
-  "clientId": 432,
-  "mobilePhone": 79139290012,
+  "clientId": 432, -- ссылка на объект Client
+  "mobilePhone": "79139290012",
   "city": "Бердск",
   "street": "Морская улица",
   "house": "2",

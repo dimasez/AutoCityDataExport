@@ -1,27 +1,27 @@
 {
   "jsonType": "client",
-  "registrationDate": "23.23.2023",
+  "registrationDate": "15/02/2023",
   "clientData": {
-    "firstName": "Геннадий",
     "lastName": "Кутузов",
+    "firstName": "Геннадий",
     "midName": "Игоревич",
-    "birthDay": "01.05.1967",
+    "birthDay": "15/01/1967",
     "sex": "М",
     "nameHistory": [
       {
-        "firstName": "Палладий",
         "lastName": "Зюганов",
+        "firstName": "Палладий",
         "midName": "Сидорович",
-        "endDate": "23.23.1997"
+        "endDate": "15/02/1997"
       },
       {
-        "firstName": "Акакий",
         "lastName": "Гадя",
+        "firstName": "Акакий",
         "midName": "Ивановович",
-        "endDate": "23.23.1986"
+        "endDate": "15/02/1986"
       }
     ]
   },
   "placeOfBirth": "Красноярск",
-  "INN": "213124234234",
+  "INN": "213124234234"
 }

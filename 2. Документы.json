@@ -1,14 +1,14 @@
 {
   "jsonType": "document",
-  "clientId": 432,
+  "clientId": 432, -- ссылка на объект Client
   "documentType": "Паспорт моряка",
   "series": 123124,
   "number": 1234,
   "issueInstitute": "ОВД Советского района г. Новосибирска",
-  "dataOfIssue": "12-02-2019",
-  "expiryDate": "02-04-2024",
+  "dataOfIssue": "15/02/2019",
+  "expiryDate": "15/04/2024",
   "instituteCode": "234-056",
   "parentDocId": 12,
   "citizenship": "Узбекистан",
-  "docInfo": "12-02-2019"
+  "docInfo": "15/02/2019"
 }

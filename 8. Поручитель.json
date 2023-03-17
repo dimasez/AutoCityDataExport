@@ -1,24 +1,24 @@
 {
   "jsonType": "guarantor",
-  "clientId": 432,
+  "clientId": 432, -- ссылка на объект Client,
   "guarantorData": {
-    "firstName": "Геннадий",
     "lastName": "Кутузов",
+    "firstName": "Геннадий",
     "midName": "Игоревич",
-    "birthDay": "01.05.1967",
+    "birthDay": "15/05/1967",
     "sex": "М",
     "nameHistory": [
       {
-        "firstName": "Палладий",
         "lastName": "Зюганов",
+        "firstName": "Палладий",
         "midName": "Сидорович",
-        "endDate": "23.23.1997"
+        "endDate": "15/23/1997"
       },
       {
-        "firstName": "Акакий",
         "lastName": "Гадя",
+        "firstName": "Акакий",
         "midName": "Ивановович",
-        "endDate": "23.23.1986"
+        "endDate": "15/02/1986"
       }
     ]
   },
@@ -29,36 +29,19 @@
   "series": 123124,
   "number": 1234,
   "issueInstitute": "ОВД Советского района г. Новосибирска",
-  "dataOfIssue": "12-02-2019",
-  "expiryDate": "02-04-2024",
+  "dataOfIssue": "15/02/2019",
+  "expiryDate": "20/04/2024",
   "instituteCode": "234-056",
   "parentDocId": 12,
   "citizenship": "Узбекистан",
-  "docInfo": "12-02-2019",
+  "docInfo": "15/02/2019",
   "email": "popov@mail.ru",
   "firstAddress": [
-    {"city1": "Бердск"},
-    {"street1": "Морская улица"},
-    {"house1": "2"},
-    {"body1": "1"},
-    {"flat1": "56"},
-    {"city2": "Бердск"},
-    {"street2": "Морская улица"},
-    {"house2": "2"},
-    {"body2": "1"},
-    {"flat2": "56"},
-    {"registrationDate": "12-02-2019"}
-    ],
-  "secondAddress": [
-    {"city1": "Бердск"},
-    {"street1": "Морская улица"},
-    {"house1": "2"},
-    {"body1": "1"},
-    {"flat1": "56"},
-    {"city2": "Бердск"},
-    {"street2": "Морская улица"},
-    {"house2": "2"},
-    {"body2": "1"},
-    {"flat2": "56"}
+    {
+      "city": "Бердск",
+      "street": "Морская улица",
+      "house": "2",
+      "body": "1"
+    }
   ]
 }

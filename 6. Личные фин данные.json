@@ -1,6 +1,6 @@
 {
   "jsonType": "financeData",
-  "clientId": 432,
+  "clientId": 432, -- ссылка на объект Client
   "averageMainIncome": "40000",
   "averageExtraIncome": "401",
   "monthlyMandatoryPayment": "23100"

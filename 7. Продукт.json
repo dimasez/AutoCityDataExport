@@ -1,23 +1,25 @@
 {
   "jsonType": "product",
-  "clientId": 432,
+  "clientId": 432, -- ссылка на объект Client
   "productSum": "50000",
   "currency": "RUR",
   "annualRate": 28.5,
   "paymentType": "аннуитет",
-  "mainDebt": "78000",
-  "dateOfIssue": "8-03-2023",
-  "endDate": "8-06-2023",
-  "dateOfPayment": "28",
-  "daysInYear": "365",
+  "mainDebt": 78000,
+  "dateOfIssue": "15/03/2023",
+  "endDate": "15/06/2023",
+  "dateOfPayment": 28,
+  "daysInYear": 365,
   "roundingTo": 2,
   "periodicityOfPayment": "неделя",
-  "isFirstTime": "bool",
-  "hasCommissions": "bool",
-  "hasPenalty": "bool",
+  "isFirstTime": true,
+  "hasCommissions": true,
+  "hasPenalty": true,
   "pledge": [
-    {"deposit": "bool",
-    "pledge": "bool",
-    "guarantee": "bool"}
+    {
+      "deposit": true,
+      "pledge": true,
+      "guarantee": true
+    }
   ]
 }
