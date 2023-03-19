@@ -41,7 +41,10 @@
       "city": "Бердск",
       "street": "Морская улица",
       "house": "2",
-      "body": "1"
+      "body": "1",
+      "isFact": true, -- фактическое проживание
+      "isRegister":true, -- прописка
+      "comment": ""
     }
   ]
 }
