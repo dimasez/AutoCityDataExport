@@ -1,6 +1,0 @@
-{
-  "jsonType": "pledgeData",
-  "clientId": 432, -- ссылка на объект Client
-  "dateOfPledge": "15/02/2023",
-  "pledgeNumber": "XI-12"
-}
