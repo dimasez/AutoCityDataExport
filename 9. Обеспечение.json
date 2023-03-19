@@ -1,6 +1,6 @@
 {
   "jsonType": "auto",
-  "clientId": 432, -- ссылка на объект Client,
+  "loanId": 432, -- ссылка на объект Loan,
   "provisionType": "Автомобиль",
   "guarantorId": 465, -- ссылка на объект Guarantor,
   "VIN": "243234234234",
