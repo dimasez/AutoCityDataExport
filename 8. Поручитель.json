@@ -1,6 +1,6 @@
 {
   "jsonType": "guarantor",
-  "clientId": 432, -- ссылка на объект Client,
+  "loanId": 432, -- ссылка на объект Client,
   "guarantorData": {
     "lastName": "Кутузов",
     "firstName": "Геннадий",
