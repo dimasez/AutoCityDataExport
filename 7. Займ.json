@@ -1,7 +1,8 @@
 {
-  "jsonType": "product",
+  "jsonType": "loan",
   "clientId": 432, -- ссылка на объект Client
-  "productSum": "50000",
+  "productUUID": "1231233123",
+  "productSum": 50000.12,
   "currency": "RUR",
   "annualRate": 28.5,
   "paymentType": "аннуитет",
