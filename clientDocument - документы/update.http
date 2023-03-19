@@ -1,0 +1,18 @@
+POST https://1c_url/update_client_document
+Content-Type: application/json
+
+## если guid не передаем, значит создание новой записи. Если guid указан, то редактирование существующей
+{
+  "guid": "b0291e09-dae8-47bb-b380-9c25be22fab3",
+  "clientUUID": "b0291e09-dae8-47bb-b380-9c25be22fab3",
+  "documentType": "Паспорт моряка",
+  "series": 123124,
+  "number": 1234,
+  "issueInstitute": "ОВД Советского района г. Новосибирска",
+  "dataOfIssue": "15/02/2019",
+  "expiryDate": "15/04/2024",
+  "instituteCode": "234-056",
+  "parentDocId": 12,
+  "citizenship": "Узбекистан",
+  "docInfo": "15/02/2019"
+}

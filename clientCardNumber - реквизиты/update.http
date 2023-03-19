@@ -1,0 +1,9 @@
+POST https://1c_url/update_client_card_number
+Content-Type: application/json
+
+## если guid не передаем, значит создание новой записи. Если guid указан, то редактирование существующей
+{
+  "guid": "b0291e09-dae8-47bb-b380-9c25be22fab3",
+  "clientUUID": "b0291e09-dae8-47bb-b380-9c25be22fab3",
+  "requisites": "3465 2346 7623 2938"
+}

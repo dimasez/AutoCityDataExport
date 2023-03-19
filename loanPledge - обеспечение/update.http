@@ -1,0 +1,24 @@
+POST https://1c_url/update_pledge
+Content-Type: application/json
+
+## если guid не передаем, значит создание новой записи. Если guid указан, то редактирование существующей
+{
+  "guid": "b0291e09-dae8-47bb-b380-9c25be22fab3",
+  "provisionType": "Автомобиль",
+  "guarantorUUID": "b0291e09-dae8-47bb-b380-9c25be22fab3", -- ссылка на объект Guarantor,
+  "VIN": "243234234234",
+  "brand": "Toyota",
+  "model": "Mark-2",
+  "cabin": "234ljl234234",
+  "year": "2008",
+  "PTSnumber": "23423lkj4234",
+  "PTSdate": "22/08/2018",
+  "STSseries": "2938723u4oij",
+  "STSnumber": "312-042394",
+  "STSdate": "22/08/2018",
+  "document": [{
+    "dateOfPledge": "15/02/2023",
+    "pledgeNumber": "XI-12"
+  }
+  ]
+}

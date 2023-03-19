@@ -1,0 +1,14 @@
+POST https://1c_url/update_client_contact_data
+Content-Type: application/json
+
+## если guid не передаем, значит создание новой записи. Если guid указан, то редактирование существующей
+{
+  "guid": "b0291e09-dae8-47bb-b380-9c25be22fab3",
+  "clientUUID": "b0291e09-dae8-47bb-b380-9c25be22fab3",
+  "mobilePhone": "79139290012",
+  "city": "Бердск",
+  "street": "Морская улица",
+  "house": "2",
+  "body": "1",
+  "flat": "56"
+}

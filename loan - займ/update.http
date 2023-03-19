@@ -1,0 +1,30 @@
+POST https://1c_url/update_loan_pledge
+Content-Type: application/json
+
+## если guid не передаем, значит создание новой записи. Если guid указан, то редактирование существующей
+{
+  "guid": "b0291e09-dae8-47bb-b380-9c25be22fab3",
+  "clientUUID": "b0291e09-dae8-47bb-b380-9c25be22fab3",
+  "productUUID": "b0291e09-dae8-47bb-b380-9c25be22fab3",
+  "productSum": 50000.12,
+  "currency": "RUR",
+  "annualRate": 28.5,
+  "paymentType": "аннуитет",
+  "mainDebt": 78000,
+  "dateOfIssue": "15/03/2023",
+  "endDate": "15/06/2023",
+  "dateOfPayment": 28,
+  "daysInYear": 365,
+  "roundingTo": 2,
+  "periodicityOfPayment": "неделя",
+  "isFirstTime": true,
+  "hasCommissions": true,
+  "hasPenalty": true,
+  "pledge": [
+    {
+      "deposit": true,
+      "pledge": true,
+      "guarantee": true
+    }
+  ]
+}

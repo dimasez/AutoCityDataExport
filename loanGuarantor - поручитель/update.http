@@ -1,0 +1,52 @@
+POST https://1c_url/update_loan_guarantor
+Content-Type: application/json
+
+## если guid не передаем, значит создание новой записи. Если guid указан, то редактирование существующей
+{
+  "guid": "b0291e09-dae8-47bb-b380-9c25be22fab3",
+  "loanUUID": "b0291e09-dae8-47bb-b380-9c25be22fab3",
+  "lastName": "Кутузов",
+  "firstName": "Геннадий",
+  "midName": "Игоревич",
+  "birthDay": "15/05/1967",
+  "sex": "М",
+  "nameHistory": [
+    {
+      "lastName": "Зюганов",
+      "firstName": "Палладий",
+      "midName": "Сидорович",
+      "endDate": "15/23/1997"
+    },
+    {
+      "lastName": "Гадя",
+      "firstName": "Акакий",
+      "midName": "Ивановович",
+      "endDate": "15/02/1986"
+    }
+  ],
+  "placeOfBirth": "Красноярск",
+  "inn": "213124234234",
+  "snils": "234-234-234-534",
+  "documentType": "Паспорт моряка",
+  "series": 123124,
+  "number": 1234,
+  "issueInstitute": "ОВД Советского района г. Новосибирска",
+  "dataOfIssue": "15/02/2019",
+  "expiryDate": "20/04/2024",
+  "instituteCode": "234-056",
+  "parentDocId": 12,
+  "citizenship": "Узбекистан",
+  "docInfo": "15/02/2019",
+  "email": "popov@mail.ru",
+  "address": [
+    {
+      "city": "Бердск",
+      "street": "Морская улица",
+      "house": "2",
+      "body": "1",
+      "isFact": true, -- фактическое проживание
+      "isRegister":true, -- прописка
+      "comment": ""
+    }
+  ]
+}
