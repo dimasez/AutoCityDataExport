@@ -6,11 +6,14 @@ Content-Type: application/json
   "guid": "b0291e09-dae8-47bb-b380-9c25be22fab3",
   "clientUUID": "b0291e09-dae8-47bb-b380-9c25be22fab3",
   "productUUID": "b0291e09-dae8-47bb-b380-9c25be22fab3",
-  "productSum": 50000.12,
+  "productTotalSum": 80000.12,
+  "productFactSum": 75000,
   "currency": "RUR",
   "annualRate": 28.5,
   "paymentType": "аннуитет",
-  "mainDebt": 78000,
+  "mainDebt": 78000.23,
+  "minimalPaymentAmount": 1000,
+  "dateOfDeal": "14/03/2023",
   "dateOfIssue": "15/03/2023",
   "endDate": "15/06/2023",
   "dateOfPayment": 28,
@@ -26,5 +29,10 @@ Content-Type: application/json
       "pledge": true,
       "guarantee": true
     }
+  ],
+  "mandatoryDocs": [
+      "dataProcessingAgrement": true,
+      "loanApplication": true,
+      "pledgeDoc": true  
   ]
 }
