@@ -1,0 +1,12 @@
+{
+  "jsonType": "estimatedValues",
+  "clientId": 432,
+  "actualDebt": "34512.54",
+  "nextPaymentDay": "23/04/2023",
+  "remainingPayment": "1234.50",
+  "overdueDebt": "124.24",
+  "overdueDebtComment": "Не полностью оплатил проценты",
+  "penaltyAmount": "234.23",
+  "penaltyComment": "Снял маячок"
+}
+
