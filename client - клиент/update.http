@@ -1,15 +1,17 @@
-POST https://1c_url/update_client
+## создание записи по Клиенту (физ лицо)
+POST https://1c_url/create_client_person
 Content-Type: application/json
 
-## если guid не передаем, значит создание новой записи. Если guid указан, то редактирование существующей
 {
-  "guid": "b0291e09-dae8-47bb-b380-9c25be22fab3",
   "lastName": "Кутузов",
   "firstName": "Геннадий",
   "midName": "Игоревич",
   "birthday": "15/01/1967",
   "sex": "М",
-  "placeOfBirth": "Красноярск",
+  "placeOfBirth": {
+    "region": "Красноярский край",
+    "city": "Красноярск"
+  },
   "inn": "213124234234",
   "nameHistory": [
     {
@@ -24,5 +26,9 @@ Content-Type: application/json
       "midName": "Ивановович",
       "endDate": "15/02/1986"
     }
-  ]
+  ],
+  "clientCardNumber": {}, // тут объект clientCardNumber
+  "clientContactData": {}, // тут объект clientContactData
+  "clientDocument": {}, // тут объект clientDocument
+  "clientFinanceData": {}, // тут объект clientFinanceData
 }

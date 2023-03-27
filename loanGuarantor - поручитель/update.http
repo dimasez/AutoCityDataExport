@@ -4,7 +4,6 @@ Content-Type: application/json
 ## если guid не передаем, значит создание новой записи. Если guid указан, то редактирование существующей
 {
   "guid": "b0291e09-dae8-47bb-b380-9c25be22fab3",
-  "loanUUID": "b0291e09-dae8-47bb-b380-9c25be22fab3",
   "lastName": "Кутузов",
   "firstName": "Геннадий",
   "midName": "Игоревич",
@@ -38,15 +37,5 @@ Content-Type: application/json
   "citizenship": "Узбекистан",
   "docInfo": "15/02/2019",
   "email": "popov@mail.ru",
-  "address": [
-    {
-      "city": "Бердск",
-      "street": "Морская улица",
-      "house": "2",
-      "body": "1",
-      "isFact": true, -- фактическое проживание
-      "isRegister":true, -- прописка
-      "comment": ""
-    }
-  ]
+  "сontactData": {}, // тут объект clientContactData
 }

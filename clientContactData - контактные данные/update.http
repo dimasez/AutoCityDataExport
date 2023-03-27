@@ -1,14 +1,31 @@
 POST https://1c_url/update_client_contact_data
 Content-Type: application/json
 
-## если guid не передаем, значит создание новой записи. Если guid указан, то редактирование существующей
+# fact - фактический адрес проживания
+# register - прописка
 {
   "guid": "b0291e09-dae8-47bb-b380-9c25be22fab3",
-  "clientUUID": "b0291e09-dae8-47bb-b380-9c25be22fab3",
-  "mobilePhone": "79139290012",
-  "city": "Бердск",
-  "street": "Морская улица",
-  "house": "2",
-  "body": "1",
-  "flat": "56"
+  "address": {
+      "fact": {
+        "country": "РОССИЯ",
+        "zip": "633011",
+        "region": "Новосибирская обл",
+        "city": "Бердск",
+        "street": "Морская улица",
+        "house": "112",
+        "body": "1",
+        "flat": "56",
+      },
+      "register": {
+        "country": "РОССИЯ",
+        "zip": "633011",
+        "region": "Новосибирская обл",
+        "city": "Бердск",
+        "street": "Морская улица",
+        "house": "112",
+        "body": "1",
+        "flat": "56",
+      }
+  },
+  "mobilePhone": "79139290012"
 }
