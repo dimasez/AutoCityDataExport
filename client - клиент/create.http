@@ -13,20 +13,7 @@ Content-Type: application/json
     "city": "Красноярск"
   },
   "inn": "213124234234",
-  "nameHistory": [
-    {
-      "lastName": "Зюганов",
-      "firstName": "Палладий",
-      "midName": "Сидорович",
-      "endDate": "15/02/1997"
-    },
-    {
-      "lastName": "Гадя",
-      "firstName": "Акакий",
-      "midName": "Ивановович",
-      "endDate": "15/02/1986"
-    }
-  ],
+  "nameHistory": [], // тут массив из clientNameHistory
   "clientCardNumber": {}, // тут объект clientCardNumber
   "clientContactData": {}, // тут объект clientContactData
   "clientDocument": {}, // тут объект clientDocument

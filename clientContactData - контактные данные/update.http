@@ -5,6 +5,7 @@ Content-Type: application/json
 # register - прописка
 {
   "guid": "b0291e09-dae8-47bb-b380-9c25be22fab3",
+  "registrationDate": "15/01/2023",
   "address": {
       "fact": {
         "country": "РОССИЯ",

@@ -1,0 +1,21 @@
+## обновление записей по истории ФИО Клиента (физ лицо)
+POST https://1c_url/update_client_name_history
+Content-Type: application/json
+
+{
+  "guid": "b0291e09-dae8-47bb-b380-9c25be22fab3",
+  "nameHistory": [
+    {
+      "lastName": "Зюганов",
+      "firstName": "Палладий",
+      "midName": "Сидорович",
+      "endDate": "15/02/1997"
+    },
+    {
+      "lastName": "Гадя",
+      "firstName": "Акакий",
+      "midName": "Ивановович",
+      "endDate": "15/02/1986"
+    }
+  ],
+}
