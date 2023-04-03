@@ -4,6 +4,7 @@ Content-Type: application/json
 {
   "clientUUID": "b0291e09-dae8-47bb-b380-9c25be22fab3",
   "productUUID": "b0291e09-dae8-47bb-b380-9c25be22fab3",
+  "department": "8d7850b3-8bc9-11e7-86a2-1c1b0de4e1bd",
   "productSum": 50000.12,
   "currency": "RUR",
   "annualRate": 28.5,
