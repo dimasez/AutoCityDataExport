@@ -1,7 +1,9 @@
 POST https://1c_url/update_client_document
 Content-Type: application/json
 
+# id - это id из CarAgenda, чтобы различать это редактирование существующей записи или создание новой
 {
+  "id": 12,
   "guid": "b0291e09-dae8-47bb-b380-9c25be22fab3",
   "documentType": "Паспорт моряка",
   "series": 123124,

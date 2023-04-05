@@ -1,0 +1,17 @@
+## обновление записи по Клиенту (физ лицо)
+POST https://1c_url/update_client_person
+Content-Type: application/json
+
+{
+  "guid": "b0291e09-dae8-47bb-b380-9c25be22fab3",
+  "lastName": "Кутузов",
+  "firstName": "Геннадий",
+  "midName": "Игоревич",
+  "birthday": "15/01/1967",
+  "sex": "М",
+  "placeOfBirth": {
+    "region": "Красноярский край",
+    "city": "Красноярск"
+  },
+  "inn": "213124234234"
+}
